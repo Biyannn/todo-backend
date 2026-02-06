@@ -7,7 +7,7 @@ The backend uses **JSON file storage** and is deployed on **Koyeb**, while the f
 
 ## 🚀 Live Demo
 
-- **Frontend**: https://todo-frontend.vercel.app
+- **Frontend**: https://todo-list-fullstack-seven.vercel.app/
 - **Backend API**: https://remaining-idaline-ayyubian-37a73d46.koyeb.app
 
 ---
