@@ -1,23 +1,64 @@
-how to run be
-cd todo-backend
-go run main.go
+# 📝 Todo List Fullstack App
 
-Tech Stack
+A simple fullstack Todo List application built with **Go** for the backend and **React** for the frontend.  
+The backend uses **JSON file storage** and is deployed on **Koyeb**, while the frontend is deployed on **Vercel**.
 
-Frontend
+---
 
-- React (Vite)
-- Tailwind CSS
-- Axios
-- JavaScript (ES6+)
+## 🚀 Live Demo
 
-Backend
+- **Frontend**: https://todo-frontend.vercel.app
+- **Backend API**: https://remaining-idaline-ayyubian-37a73d46.koyeb.app
+
+---
+
+## 🧩 Features
+
+- Create todo
+- Update todo (toggle completed)
+- Delete single todo
+- Delete all todos
+- Filter by status & priority
+- REST API with JSON response
+
+---
+
+## 🛠 Tech Stack
+
+### Backend
 - Go (net/http)
-- PostgreSQL
-- SQL (native, no ORM)
-- REST API
+- JSON file storage
+- Docker
+- Koyeb
 
-Deployment
-- Frontend → Vercel
-- Backend → Koyeb
-- Database → Koyeb PostgreSQL / Supabase / Neon
+### Frontend
+- React (Vite)
+- Axios
+- Tailwind CSS
+- Vercel
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|------|--------|------------|
+| GET | `/todos` | Get all todos |
+| POST | `/todos` | Create new todo |
+| PUT | `/todos/:id` | Toggle todo |
+| DELETE | `/todos/:id` | Delete todo |
+| DELETE | `/todos` | Delete all todos |
+
+---
+
+## ⚠️ Notes
+
+- JSON storage is **not persistent** on cloud restart.
+- This project is intended for **learning & portfolio purposes**.
+
+---
+
+## 👨‍💻 Author
+
+**Ayyubian Ar Raufan Kamal**  
+Junior Fullstack Developer
